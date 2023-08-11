@@ -14,18 +14,9 @@ const Hero = () => {
       <div className={css.container}>
         <div className={css.left}>  
           <div className={css.text}>
-          <h1>hola</h1>
-          <span>We enjoy creating delightful, human-centered digital experiences.</span>
+          <h2>We enjoy creating delightful, human-centered digital experiences.</h2>
           </div>
-          <div className={css.btns}>
-          <button>Work</button>
-          <button>Download Resume  <BsArrowDownCircle className={css.icon}/></button>
-          </div>
-        </div>
-        <div className={css.right}>
-
-          {/* <img className={css.logo} src={logo} alt="" /> */}
-
+          
         </div>
       </div>
       <ReactPlayer className={css.video}

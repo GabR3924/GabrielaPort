@@ -40,6 +40,19 @@ const Works = () => {
               </div>
             </div>
           </div>
+          <div className={css.juego}>
+            <div>
+            <img src={Juego} alt="" />
+            </div>
+            <div className={css.span}>
+              <h4>Juego 2048</h4>
+              
+              <div className={css.go}>
+                <AiFillGithub className={css.icons}/>
+                <BsBoxArrowUpRight className={css.icons}/>
+              </div>
+            </div>
+          </div>
           <div className={css.skinPage}>
             <img src={SkinPage} alt="" />
             <div className={css.span}>
@@ -51,6 +64,7 @@ const Works = () => {
               </div>
             </div>
           </div>
+          
         </div>
       </div>
     </div>

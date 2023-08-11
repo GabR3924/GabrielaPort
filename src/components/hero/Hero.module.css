@@ -1,39 +1,32 @@
 .section{
     height: 100vh;
-    width: 100vw;
+    width: 95vw;
     background: transparent;
     color: black;
+    background-attachment: fixed
 }
 .container{
     position: absolute;
     display: flex;
     height: 100vh;
-    width: 100vw;
-    align-items: center;
     justify-content: space-between;
     padding: 10%;
-    padding-top: 1%;
-    margin-top: -1rem;
+    padding-left: 3%;
     z-index: 1;
     color: black;
 }
 
 .left{
     display: flex;
-    position: relative;
-    display: flex;
     flex-direction: column;
-    justify-content: center;    
-    
-    /* border: 2px solid blue; */
-    gap: .2em;
     color: rgb(0, 0, 0);
 }
-.text h1{
-    gap: 8vh;
-    display: flex;
-    flex-direction: column;
+.text {
+    
     color: black;
+    font-size: 3rem;
+    font-family: sans-serif;
+    font-weight: lighter;
 }
 
 .btns{

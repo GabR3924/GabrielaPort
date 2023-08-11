@@ -12,7 +12,7 @@ const Nav = () => {
     <div className={css.section}>
       <div className={css.container}>
         
-          <div className={css.logo}>GabrielaDev</div>
+          <div className={css.logo}>Gabriela Rodriguez</div>
           <ul className={css.list}>
             <li>Contact</li>
             <li><AiOutlineLine className={css.iconLine} /></li>
