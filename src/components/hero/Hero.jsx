@@ -10,20 +10,11 @@ import ReactPlayer from 'react-player';
 const Hero = () => {
   return (
     <div className={css.section}>
-       <ReactPlayer
-        url =  {video}
-        playing
-        loop
-        muted
-        width="100%"
-        height="100%"
-       
-      />
       <Nav/>
       <div className={css.container}>
         <div className={css.left}>  
           <div className={css.text}>
-          <h1>Hola</h1>
+          <h1>hola</h1>
           <span>We enjoy creating delightful, human-centered digital experiences.</span>
           </div>
           <div className={css.btns}>
@@ -37,6 +28,16 @@ const Hero = () => {
 
         </div>
       </div>
+      <ReactPlayer className={css.video}
+        url =  {video}
+        playing
+        loop
+        muted
+        width="150vw"
+        height="100vh"
+        marginTop="-1rem"
+        style={{ position: 'fixed', zIndex: -1 }}
+      />
     </div>
   )
 }

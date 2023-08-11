@@ -10,7 +10,7 @@ const Works = () => {
   return (
     <div className={css.section}>
       <div className={css.container}>
-        <h1>Proyectos</h1>
+        <h1>Portfolio</h1>
         <div className={css.work}>
 
           <div className={css.note}>
@@ -19,12 +19,7 @@ const Works = () => {
            ` </div>`
             <div className={css.span}>
               <h4>Note App</h4>
-              <ul className={css.list}>
-                <li>Vite</li>
-                <li>React</li>
-                <li>HTML</li>
-                <li>CSS</li>
-              </ul>
+              
               <div className={css.go}>
                 <AiFillGithub className={css.icons}/>
                 <BsBoxArrowUpRight className={css.icons}/>
@@ -38,12 +33,7 @@ const Works = () => {
             </div>
             <div className={css.span}>
               <h4>Juego 2048</h4>
-              <ul className={css.list}>
-                <li>Vite</li>
-                <li>React</li>
-                <li>HTML</li>
-                <li>CSS</li>
-              </ul>
+              
               <div className={css.go}>
                 <AiFillGithub className={css.icons}/>
                 <BsBoxArrowUpRight className={css.icons}/>
@@ -54,12 +44,7 @@ const Works = () => {
             <img src={SkinPage} alt="" />
             <div className={css.span}>
               <h4>Skincare Page</h4>
-              <ul className={css.list}>
-                <li>Vite</li>
-                <li>React</li>
-                <li>HTML</li>
-                <li>CSS</li>
-              </ul>
+             
               <div className={css.go}>
                 <AiFillGithub className={css.icons}/>
                 <BsBoxArrowUpRight className={css.icons}/>
