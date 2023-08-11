@@ -1,0 +1,138 @@
+.section{
+    background: rgb(49, 104, 182);
+    background: transparent;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+h1{
+    height: 50px;
+    font-size: 50px;
+    justify-content: center;
+    margin: 1rem auto;
+    /* border: 2px solid black; */
+    
+}
+
+.container{
+    background: white;
+    display: grid;
+    width: 100vw;
+    /* height: 100vh; */
+    margin: auto;
+    padding: 2rem;
+    
+    border-radius: 3rem;
+    contain: content;
+}
+
+.work{
+    /* border: 2px solid rebeccapurple;  */
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    
+    justify-content: space-between;
+}
+
+.note, .juego, .skinPage{
+    width: 40%;
+    border-radius: 2rem;
+    position: relative;
+    contain: content;
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem;
+    padding: .5rem;
+}
+.note{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.note img{
+    margin-left: 1rem;
+}
+img{
+    display: flex;
+   border-radius: 10px;
+   width: 90%;
+
+}
+
+.span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    
+}
+.span h4{
+    font-size: 2rem;
+}
+.span p{
+    font-size: 18px;
+}
+.list{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+
+}
+.list li{
+    color: rgb(97, 96, 96) ;
+    border: 1px solid rgb(75, 74, 74);
+    border-radius: 2rem;
+    padding: 10px;
+    
+    text-align: end;
+}
+
+.juego{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+}
+.juego img{
+    margin-left: 1rem;
+}
+.skinPage{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.go{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    font-size: 30px;
+    gap: 20px;
+    margin-top: 0;
+}
+
+.go .icons{
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 950px){
+    .work{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-bottom: 8.5rem;
+        align-items: center;
+    }
+    .note, .juego, .skinPage{
+        margin: auto;
+        margin-top: 3.5rem;
+        width: 70vw;
+    }
+
+}

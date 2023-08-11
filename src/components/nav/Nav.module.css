@@ -1,0 +1,128 @@
+
+.section{
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1% 4% 1% 4%;
+    margin-bottom: 3rem;
+}
+
+
+.logo{
+   justify-content: left;
+   align-items: center;
+   color: white;
+   font-size: 1.5rem;
+   font-weight: 800;
+   
+}
+
+.list{
+    margin: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 10px;
+    list-style: none;
+    color: white;    
+}
+li{
+    cursor: pointer;
+    font-weight: 600;
+}
+
+
+.icon{
+    cursor: pointer;
+    font-size: 28px;
+    color: white;
+    margin-right: 20px;
+}
+.iconLine{
+    rotate: 90deg;
+    cursor: pointer;
+    font-size: 2.2rem;
+    color: white;
+}
+
+.mobile{
+    width: 90%;
+    height: 10%;
+    position: absolute;
+    
+    border-radius: 10px;
+    background:rgba(8,8,9,.8);
+    bottom: 4%;
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    backdrop-filter: blur(70px);
+    z-index: 1;
+
+    
+}
+.uno{
+    height: 60%;
+    background: #211f1f;
+    color: white;
+    border: .1px solid rgb(46, 46, 46);
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    padding: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 4vw;
+    font-weight: 200;
+}
+.uno .icon{
+    font-size: 4vw;
+    font-weight: lighter;
+    margin-right: 1px;
+}
+
+hr{
+    margin: 15px;
+    height: 90%;
+}
+.dos{
+    height: 60%;
+    background: #211f1f;
+    color: white;
+    border: .1px solid rgb(46, 46, 46);
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+    gap: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 25px;
+    font-family: 'Inconsolata', monospace;
+    font-size: 3vw;
+    font-weight: 200;
+}
+
+@media only screen and (max-width: 750px){
+    .mobile{
+        display: flex;
+    }
+    .list{
+        visibility: hidden;
+        display: none;
+    }
+    .container{
+        padding-bottom: 2%;
+    }
+}
