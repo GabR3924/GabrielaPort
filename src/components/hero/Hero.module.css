@@ -1,98 +1,142 @@
-.section{
-    height: 100vh;
-    width: 95vw;
-    background: transparent;
-    color: black;
-    background-attachment: fixed
+.section {
+  display: flex;
+  height: 100vh;
+  width: 95vw;
+  background: transparent;
+  color: black;
+  background-attachment: fixed;
+  contain: content;
 }
-.container{
-    position: absolute;
-    display: flex;
-    height: 100vh;
-    justify-content: space-between;
-    padding: 10%;
-    padding-left: 3%;
-    z-index: 1;
-    color: black;
+.container {
+  position: relative;
+  display: flex;
+  height: 100vh;
+  padding: 10%;
+  color: black;
 }
 
-.left{
-    display: flex;
-    flex-direction: column;
-    color: rgb(0, 0, 0);
+.left {
+  display: flex;
+  color: rgb(0, 0, 0);
 }
 .text {
-    
     color: black;
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-family: sans-serif;
-    font-weight: lighter;
+    font-weight: 100;
+    text-align: left;
+  }
+  
+
+
+.logo {
+  display: flex;
+  position: relative;
+  width: 35vw;
 }
 
-.btns{
-    display: flex;
-    flex-direction: row;
-    gap: 15px;
-    margin-top: 1rem;
-}
-.btns .icon{
-    font-size: 38px;
-    color: rgb(94, 91, 91);
-    background: #7674755e;
-    padding: 5px;
-    border-radius: 5rem;
+.galeria {
+  width: 90%;
+  position: absolute;
+  display: flex;
+  margin-top: 33%;
 }
 
-button{
-    width: 4.5rem;
-    font-size: 18px;
-    font-weight: 600;
-    background: rgb(255, 255, 255);
-    border: none;
-    border-radius: 10px;
+.galeria ul {
+  list-style: none;
+  display: flex;
+  gap: 12rem;
 }
-button:nth-child(2){
-    width: 13rem;
-    height: 3.6rem;
-    flex-direction: row;
+
+.galeria li {
+  font-size: 2.6rem;
+  font-weight: 800;
+  color: #999;
+}
+
+@media only screen and (max-width: 750px) {
+  .section {
+    scroll-snap-type-y: none;
+  }
+  .container {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    margin-top: -4rem;
     align-items: center;
-    gap: 5px;
-    background: none;
-    color: white;
+    justify-content: center;
+    gap: 5rem;
+  }
+  .btns {
+    display: none;
+  }
+  .logo {
+    width: 50vw;
+  }
 }
 
- .logo{
-    display: flex;
-    position: relative;
-    width:35vw;    
- }
+/* Cool infinite background scrolling animation.*/
 
-.video{
-    width:100%;
-    height:100%
+@import url(https://fonts.googleapis.com/css?family=Exo:100);
+
+/* Animations */
+@-webkit-keyframes bg-scrolling-reverse {
+  100% {
+    background-position: 50px 50px;
+  }
 }
-
- @media only screen and (max-width: 750px){
-    .section{
-     scroll-snap-type-y: none;
-       
-    }
-    .container{
-        display: flex;
-        flex-direction: column;
-        margin-top: -4rem;
-        align-items: center;
-        justify-content: center;
-        gap: 5rem;
-        
-    }
-    .btns{
-        display: none;
-    }
-    .logo{
-        width: 50vw;
-    }
-
- }
+@-moz-keyframes bg-scrolling-reverse {
+  100% {
+    background-position: 50px 50px;
+  }
+}
+@-o-keyframes bg-scrolling-reverse {
+  100% {
+    background-position: 50px 50px;
+  }
+}
+@keyframes bg-scrolling-reverse {
+  100% {
+    background-position: 50px 50px;
+  }
+}
+@-webkit-keyframes bg-scrolling {
+  0% {
+    background-position: 50px 50px;
+  }
+}
+@-moz-keyframes bg-scrolling {
+  0% {
+    background-position: 50px 50px;
+  }
+}
+@-o-keyframes bg-scrolling {
+  0% {
+    background-position: 50px 50px;
+  }
+}
+@keyframes bg-scrolling {
+  0% {
+    background-position: 50px 50px;
+  }
+}
+/* Main styles */
+body {
+  color: #999;
+  font: 400 16px/1.5 exo, ubuntu, "segoe ui", helvetica, arial, sans-serif;
+  text-align: center;
+  /* img size is 50x50 */
+  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAIAAACRXR/mAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAABnSURBVHja7M5RDYAwDEXRDgmvEocnlrQS2SwUFST9uEfBGWs9c97nbGtDcquqiKhOImLs/UpuzVzWEi1atGjRokWLFi1atGjRokWLFi1atGjRokWLFi1af7Ukz8xWp8z8AAAA//8DAJ4LoEAAlL1nAAAAAElFTkSuQmCC")
+    repeat 0 0;
+  -webkit-animation: bg-scrolling-reverse 0.92s infinite;
+  /* Safari 4+ */
+  -moz-animation: bg-scrolling-reverse 0.92s infinite;
+  /* Fx 5+ */
+  -o-animation: bg-scrolling-reverse 0.92s infinite;
+  /* Opera 12+ */
+  animation: bg-scrolling-reverse 0.92s infinite;
+  /* IE 10+ */
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
+  animation-timing-function: linear;
+}

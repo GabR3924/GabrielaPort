@@ -2,7 +2,7 @@ import React from 'react'
 import css from './Hero.module.css'
 import Nav from '../nav/Nav'
 import { BsArrowDownCircle } from 'react-icons/bs'
-import logo from '../../assets/launch.png'
+
 import video from "../../assets/portVideo.mp4"
 import ReactPlayer from 'react-player';
 
@@ -14,21 +14,19 @@ const Hero = () => {
       <div className={css.container}>
         <div className={css.left}>  
           <div className={css.text}>
-          <h2>We enjoy creating delightful, human-centered digital experiences.</h2>
+          <h2>I am a backend developer with experience in creating scalable and reliable applications using cloud technology </h2>
           </div>
           
         </div>
+        <div className={css.galeria}>
+        <ul>
+          <li>AWS</li>
+          <li>Node js</li>
+          <li>React</li>
+          <li>React Native</li>
+        </ul>
       </div>
-      <ReactPlayer className={css.video}
-        url =  {video}
-        playing
-        loop
-        muted
-        width="150vw"
-        height="100vh"
-        marginTop="-1rem"
-        style={{ position: 'fixed', zIndex: -1 }}
-      />
+      </div>     
     </div>
   )
 }

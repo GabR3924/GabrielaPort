@@ -14,7 +14,7 @@ const Nav = () => {
         
           <div className={css.logo}>Gabriela Rodriguez</div>
           <ul className={css.list}>
-            <li>Contact</li>
+           
             <li><AiOutlineLine className={css.iconLine} /></li>
             <a href="github.com/GabR3924"> 
             <li><BsGithub className={css.icon} /></li>
