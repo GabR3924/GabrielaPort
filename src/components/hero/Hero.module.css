@@ -18,6 +18,8 @@
 .left {
   display: flex;
   color: rgb(0, 0, 0);
+  flex-direction: column;
+  gap: 15%;
 }
 .text {
     color: black;
@@ -37,9 +39,7 @@
 
 .galeria {
   width: 90%;
-  position: absolute;
   display: flex;
-  margin-top: 33%;
 }
 
 .galeria ul {

@@ -16,9 +16,7 @@ const Hero = () => {
           <div className={css.text}>
           <h2>I am a backend developer with experience in creating scalable and reliable applications using cloud technology </h2>
           </div>
-          
-        </div>
-        <div className={css.galeria}>
+          <div className={css.galeria}>
         <ul>
           <li>AWS</li>
           <li>Node js</li>
@@ -26,6 +24,7 @@ const Hero = () => {
           <li>React Native</li>
         </ul>
       </div>
+        </div>
       </div>     
     </div>
   )
