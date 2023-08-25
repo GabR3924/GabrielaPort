@@ -41,6 +41,11 @@
     list-style: none;
     color: black;   
 }
+
+a{
+    cursor:  ;
+}
+
 li{
     cursor: pointer;
     font-weight: 300;
@@ -48,14 +53,12 @@ li{
 
 
 .icon{
-    cursor: pointer;
     font-size: 20px;
     color: rgb(0, 0, 0);
     margin-right: 20px;
 }
 .iconLine{
     rotate: 90deg;
-    cursor: pointer;
     font-size: 2rem;
     color: rgb(0, 0, 0);
 }

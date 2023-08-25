@@ -3,9 +3,6 @@ import css from './Hero.module.css'
 import Nav from '../nav/Nav'
 import { BsArrowDownCircle } from 'react-icons/bs'
 
-import video from "../../assets/portVideo.mp4"
-import ReactPlayer from 'react-player';
-
 
 const Hero = () => {
   return (
