@@ -2,7 +2,7 @@ import React from "react";
 import css from "./Work.module.css";
 import Notas from "../../assets/Notas.jpg";
 import { AiFillGithub } from "react-icons/ai";
-import { BsBoxArrowUpRight } from "react-icons/bs";
+import { RxOpenInNewWindow } from "react-icons/rx";
 
 const Works = () => {
   return (
@@ -17,7 +17,7 @@ const Works = () => {
             
             <div className={css.span}>
               <a href="https://soul-music-test-front.netlify.app/home" target="blank">
-
+              <RxOpenInNewWindow/>
               <h4>Soul Music</h4>
               </a>
             </div>
@@ -28,6 +28,7 @@ const Works = () => {
             
             <div className={css.span}>
             <a href="https://movies-front-tau.vercel.app/" target="blank">
+            <RxOpenInNewWindow/>
               <h4>Green Screen</h4>
               </a>
             </div>
@@ -38,6 +39,7 @@ const Works = () => {
             
             <div className={css.span}>
             <a href="https://github.com/GabR3924/JobsApp" target="blank">
+            <RxOpenInNewWindow/>
               <h4>Jobs App</h4>
               </a>
             </div>
