@@ -12,19 +12,17 @@ const Contact = () => {
         <ul className={css.icons}>
           <li className={css.icon}>
             <a href="https://github.com/GabR3924" target="_blank" rel="noopener noreferrer">
-              <BsGithub /> <span>GitHub</span>
+              <BsGithub />
             </a>
           </li>
           <li className={css.icon}>
             <a href="https://www.linkedin.com/in/gabriela-rodriguez-24b4b0214/" target="_blank" rel="noopener noreferrer">
               <FaLinkedin />
-              <span>Conectar</span>
             </a>
           </li>
           <li className={css.icon}>
             <a href="https://mail.google.com/mail/u/1/#inbox" target="_blank" rel="noopener noreferrer">
               <SiGmail />
-              <span>Email</span>
             </a>
           </li>
         </ul>
