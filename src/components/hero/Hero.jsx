@@ -11,7 +11,7 @@ const Hero = () => {
       <div className={css.container}>
         <div className={css.left}>  
           <div className={css.text}>
-          <h2>I am a backend developer with experience in creating scalable and reliable applications using cloud technology </h2>
+          <h2>FullStack Developer con experiencia creando aplicaciones web confiables y escalables con tecnologia en la nube</h2>
           </div>
           <div className={css.galeria}>
         <ul>

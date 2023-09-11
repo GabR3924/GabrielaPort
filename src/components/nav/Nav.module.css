@@ -1,12 +1,16 @@
 
 .section{
-    position: absolute;
-    width: 100vw;
+    position: relative;
+    width: 100%;
+    height: 3rem;
     display: flex;
+    margin-top: 1.5rem;
     align-items: center;
     justify-content: center;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
+    margin-left: 2rem;
+    margin-bottom: -4rem;
 }
 
 .container{
@@ -16,7 +20,6 @@
     align-items: center;
     justify-content: space-between;
     padding: 1% 4% 1% 4%;
-    margin-bottom: 3rem;
     background: transparent;
    
 
@@ -42,20 +45,18 @@
     color: black;   
 }
 
-a{
-    cursor:  ;
-}
-
-li{
-    cursor: pointer;
-    font-weight: 300;
-}
+.list a {
+    text-decoration: none; /* Quita la subrayado predeterminado de los enlaces */
+    color: black; /* Establece el color de texto deseado para los enlaces */
+  }
+  
 
 
 .icon{
-    font-size: 20px;
+    font-size: 25px;
     color: rgb(0, 0, 0);
     margin-right: 20px;
+    z-index: 1;
 }
 .iconLine{
     rotate: 90deg;

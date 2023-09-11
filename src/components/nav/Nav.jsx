@@ -5,7 +5,6 @@ import { FaLinkedin } from "react-icons/fa";
 import { AiOutlineLine } from "react-icons/ai";
 import { Link } from "react-router-dom";
 
-
 const Nav = () => {
   return (
     <div className={css.section}>
@@ -13,16 +12,23 @@ const Nav = () => {
         <div className={css.logo}>Gabriela Rodriguez</div>
         <ul className={css.list}>
           <li>
-            <AiOutlineLine className={css.iconLine} />
+          
+              <AiOutlineLine className={css.iconLine} />
+            
           </li>
-          <Link to="https://github.com/GabR3924">
-            <li>
-              <BsGithub className={css.icon} />
-            </li>
-          </Link>
-
-          <li>
-            <FaLinkedin className={css.icon} />
+          <li className={css.icon}>
+            <a href="https://github.com/GabR3924" target="_blank" rel="noopener noreferrer">
+              <BsGithub />
+            </a>
+          </li>
+          <li className={css.icon}>
+            <a
+              href="https://www.linkedin.com/in/gabriela-rodriguez-24b4b0214/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaLinkedin />
+            </a>
           </li>
         </ul>
       </div>
