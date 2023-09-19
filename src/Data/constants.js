@@ -4,6 +4,8 @@ export const Bio = {
       "Full Stack Developer",
       "Backend Developer",
       "Programadora",
+      "Cloud Developer",
+
     ],
     description:
       "Soy una persona motivada y versátil, siempre dispuesta a aceptar nuevos desafíos. Con pasión por aprender, estoy comprometida en entregar resultados de alta calidad. Con una actitud positiva y una mentalidad de crecimiento, estoy lista para hacer una contribución significativa y lograr grandes cosas.",
