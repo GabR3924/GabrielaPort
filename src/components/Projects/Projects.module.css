@@ -1,0 +1,81 @@
+
+.container {
+    background: linear-gradient(
+      343.07deg,
+      rgba(132, 59, 206, 0.06) 5.71%,
+      rgba(132, 59, 206, 0) 64.83%
+    );
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    align-items: center;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 100% 98%, 0 100%);
+  }
+  
+  .wrapper {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1350px;
+    padding: 10px 0px 100px 0;
+    gap: 12px;
+  }
+  
+  .title {
+    font-size: 42px;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    color: var(--text_primary);
+  }
+  
+  .desc {
+    font-size: 18px;
+    text-align: center;
+    max-width: 600px;
+    color: var(--text_secondary);
+  }
+  
+  .toggleButtonGroup {
+    display: flex;
+    border: 1.5px solid var(--primary);
+    color: var(--primary);
+    font-size: 16px;
+    border-radius: 12px;
+    font-weight: 500;
+    margin: 22px 0px;
+  }
+  
+  .toggleButton {
+    padding: 8px 18px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .toggleButton.active {
+    background: var(--primary + 20);
+  }
+  
+  .toggleButton:hover {
+    background: var(--primary + 8);
+  }
+  
+  .divider {
+    width: 1.5px;
+    background: var(--primary);
+  }
+  
+  .cardContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+    flex-wrap: wrap;
+  }
+  

@@ -1,53 +1,60 @@
-import React from "react";
-import css from "./Nav.module.css";
-import { BsGithub } from "react-icons/bs";
-import { FaLinkedin } from "react-icons/fa";
-import { AiOutlineLine } from "react-icons/ai";
-import { Link } from "react-router-dom";
+import { useState } from 'react';
+import css from './Nav.module.css';
+import { AiOutlineMenu } from 'react-icons/ai'
+import { Bio } from '../../data/constants';
 
-const Nav = () => {
+
+export default function Navbar() {
+  const [open, setOpen] = useState(false)
+
   return (
-    <div className={css.section}>
-      <div className={css.container}>
-        <div className={css.logo}>Gabriela Rodriguez</div>
-        <ul className={css.list}>
-          <li>
-          
-              <AiOutlineLine className={css.iconLine} />
+    <nav> 
+      <div className={css.nav_container}>
+        <div className={css.nav_logo}>
+          <div className={css.icon}>
             
-          </li>
-          <li className={css.icon}>
-            <a href="https://github.com/GabR3924" target="_blank" rel="noopener noreferrer">
-              <BsGithub />
-            </a>
-          </li>
-          <li className={css.icon}>
-            <a
-              href="https://www.linkedin.com/in/gabriela-rodriguez-24b4b0214/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaLinkedin />
-            </a>
-          </li>
-        </ul>
+          </div>
+          <span>Portafolio</span>
+        </div>
+        <div className={css.mobile_icon}>
+          <AiOutlineMenu
+          onClick={() => {
+            setOpen(!open)
+          }}/>
+        </div>
+        <div className={css.nav_item}>
+          <div className={css.nav_link}>
+            home
+          </div>
+          <div className={css.nav_link}>
+            Skills
+          </div>
+          <div className={css.nav_link}>
+            Projects
+          </div>
+          <div className={css.nav_link}>
+            Education
+          </div>
+          <div className={css.nav_link}>
+            Experience
+          </div>
+        </div>
+        <div className={css.btn_container}>
+        <a href={Bio.github} target="display" className={css.github_btn}><div>Github profille</div></a>
+        </div>
       </div>
-      {/* <div className={css.mobile}>
-        <div className={css.uno}>
-          <BsGithub className={css.icon} />
-          <hr />
-          <FaLinkedin className={css.icon} />
-          <hr />
-          <SiGmail className={css.icon} />
-        </div>
-        <div className={css.dos}>
-          <p>Proyectos</p>
-          <hr />
-          <p>CV</p>
-        </div>
-      </div> */}
-    </div>
+      {
+        open && (
+          <div className={css.mobile_menu.open}>
+            <div className={css.mobile_menu_links}>hola</div>
+            <div className={css.mobile_menu_links}>hola</div>
+            <div className={css.mobile_menu_links}>hola</div>
+            <div className={css.mobile_menu_links}>hola</div>
+            <div className={css.mobile_menu_links}>hola</div>
+            <div className={css.github_btn_mobile}>Github profille</div>
+          </div>
+        )
+      }
+    </nav>
   );
-};
-
-export default Nav;
+}

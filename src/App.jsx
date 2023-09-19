@@ -1,22 +1,28 @@
-import Contact from "./components/contact/Contact";
-import Hero from "./components/hero/Hero";
-import Works from "./components/works/Works";
-import css from './app.module.css'
-import { Route, Routes } from "react-router-dom";
-
+import { useState } from 'react';
+import { ThemeProvider } from 'styled-components';
+import { darkTheme } from './Utils/Themes';
+import css from './App.module.css'; 
+import Navbar from './Components/Nav/Nav'
+import Hero from './Components/Hero/Hero';
+import Skills from './Components/Skills/Skills'
+import Projects from './Components/Projects/Projects'
+import Education from './Components/Education/Education'
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
-    <div className={css.app}>
-            <Hero/>
-           <Works/>
-           <Contact className={css.contact}/>
-       <Routes>
-            <Route path="https://github.com/GabR3924"/>
-       </Routes>
-
-    </div>
-
+    <>
+      <div className={css.body}>
+      <Navbar/>
+        <Hero/>
+        <div className={css.wrapper}>
+          <Skills/> 
+          <Projects/>
+        </div>
+        {/* <Education/> */}
+        <Footer/>
+      </div>
+    </>
   );
 }
 
