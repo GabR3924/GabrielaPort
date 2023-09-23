@@ -1,5 +1,6 @@
 
 .container {
+  margin-bottom: 3rem;
     background: linear-gradient(
       343.07deg,
       rgba(132, 59, 206, 0.06) 5.71%,
@@ -77,5 +78,7 @@
     align-items: center;
     gap: 28px;
     flex-wrap: wrap;
+    color: white;
+    margin-bottom: 5rem;
   }
   

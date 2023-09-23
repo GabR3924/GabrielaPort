@@ -254,7 +254,7 @@ export const Bio = {
       title: "Soul Music",
       date: "Jun 2023 - Jul 2023",
       description:
-        "Web Application de reproduccion de musica. https://soul-music-pf.netlify.app/store",
+        "El sitio web está dedicado a la reproducción de música y ofrece una amplia gama de funciones, incluyendo la creación de perfiles de usuario, la personalización de listas de reproducción, membresías con beneficios exclusivos y un completo panel de administración.",
       image:
         "../src/assets/music.png",
       tags: [
@@ -268,37 +268,24 @@ export const Bio = {
         "NodeMailer",
       ],
       category: "web app",
-      github: "",
-      webapp: "",
+      github: "https://github.com/GabR3924",
+      webapp: "https://soul-music-pf.netlify.app/home",
     },
     {
       id: 0,
       title: "GreenScreen",
       date: "ago 2023 - sep 2023",
       description:
-        "Web App de review y puntuacion de peliculas.Enlace:https://movies-front-tau.vercel.app/",
+        "Nuestro sitio web enfocado en recopilar reseñas y puntuaciones de peliculas, y series que ofrece una amplia gama de funciones, incluyendo la creación de perfiles de usuario, la personalización de listas de reproducción, donacioness con beneficios y un completo panel de administración.",
       image:
                 "../src/assets/screen.png"
         ,
       tags: ["React Js", "PostgreSQL", "Node Js", "Express Js", "Redux", "Cloudinary","NodeMailer",
     ],
       category: "web app",
-      github: "https://github.com/rishavchanda/Podstream",
-      webapp: "https://podstream.netlify.app/",
-      member: [
-        {
-          name: "Rishav Chanda",
-          img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-          linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-          github: "https://github.com/rishavchanda/",
-        },
-        {
-          name: "Upasana Chaudhuri",
-          img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-          linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-          github: "https://github.com/upasana0710",
-        },
-      ],
+      github: "https://github.com/GabR3924",
+      webapp: "https://movies-front-tau.vercel.app/",
+     
     },
     {
       id: 1,
@@ -316,7 +303,7 @@ export const Bio = {
         "Redux",
       ],
       category: "web app",
-      github: "https://github.com/rishavchanda/Project-Management-App",
+      github: "https://github.com/GabR3924/PI-pokemon",
       webapp: "https://vexa-app.netlify.app/",
     },
     

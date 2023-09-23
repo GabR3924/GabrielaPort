@@ -16,7 +16,7 @@ export default function Hero() {
               Hola, soy <br /> {Bio.name}
             </div>
             <div className={css.text_loop}>
-              Yo soy
+            
               <span>
                 <Typewriter options=
               {{
@@ -30,7 +30,7 @@ export default function Hero() {
               {Bio.description}
             </div>
             <div className={css.resume_btn}>
-              <a href={Bio.resume} target="display">Check Resume</a>
+              <a href={Bio.resume} target="display">CV</a>
             </div>
           </div>
         </div>

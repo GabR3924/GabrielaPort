@@ -5,7 +5,7 @@ import css from './Footer.module.css';
 
 function Footer() {
   return (
-    <div className={css.footerContainer}>
+    <div className={css.footerContainer} id='footer'>
       <footer className={css.footerWrapper}>
         <h1 className={css.logo}>Gabriela Rodriguez</h1>
         <nav className={css.nav}>

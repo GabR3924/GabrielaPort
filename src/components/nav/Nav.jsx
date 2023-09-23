@@ -2,6 +2,7 @@ import { useState } from 'react';
 import css from './Nav.module.css';
 import { AiOutlineMenu } from 'react-icons/ai'
 import { Bio } from '../../data/constants';
+import { Link } from 'react-router-dom';
 
 
 export default function Navbar() {
@@ -36,7 +37,7 @@ export default function Navbar() {
             Education
           </div>
           <div className={css.nav_link}>
-            Experience
+            <Link to='/#footer'>footer</Link>
           </div>
         </div>
         <div className={css.btn_container}>

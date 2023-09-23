@@ -1,9 +1,9 @@
 import React from 'react';
 import css from './Project.module.css'; // Asegúrate de importar tus estilos CSS Modules
 
-const ProjectCards = ({ project, openModal, setOpenModal }) => {
+const ProjectCards = ({ project, openModal  }) => {
   return (
-    <div className={css.card} onClick={() => setOpenModal({ state: true, project: project })}>
+    <div className={css.card} onClick={() => openModal(project)}>
       <img src={project.image} className={css.image} alt={project.title} />
       <div className={css.tags}>
         {project.tags?.map((tag, index) => (
@@ -18,7 +18,7 @@ const ProjectCards = ({ project, openModal, setOpenModal }) => {
         <div className={css.description}>{project.description}</div>
       </div>
       
-      {/* <button className={css.button}>View Project</button> */}
+     
     </div>
   );
 };

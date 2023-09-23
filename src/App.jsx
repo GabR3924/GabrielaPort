@@ -20,7 +20,7 @@ function App() {
           <Projects/>
         </div>
         {/* <Education/> */}
-        <Footer/>
+        <Footer id='footer'/>
       </div>
     </>
   );
