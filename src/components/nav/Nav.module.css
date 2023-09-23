@@ -25,6 +25,11 @@
     top: 0;
     z-index: 10;
   }
+
+  a{
+    text-decoration: none;
+    color: white;
+  }
   
   .nav_container {
     display: flex;
@@ -169,6 +174,8 @@
     box-shadow: 0 0 10px 0 rgba(235, 109, 109, 0.2);
     background: white !important; 
     color: white;
+    gap: 2rem;
+
   }
   
   .mobile_menu.open {
@@ -177,7 +184,7 @@
     opacity: 1;
     z-index: 1000;
     background: rgba(76, 76, 76, 0.363) !important; 
-
+    gap: 2rem;
   }
 
   .mobile_menu_links{
@@ -185,7 +192,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 32px;
+  gap: 2rem;
   list-style: none;
   width: 100%;
   height: 100%;

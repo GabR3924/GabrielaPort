@@ -5,7 +5,7 @@ import Typewriter from 'typewriter-effect';
 export default function Hero() {
   return (
     <div>
-      <div className={css.hero_container}>
+      <div className={css.hero_container} id="home">
         <div className={css.hero_bg}></div>
         <div className={css.hero_inner_container}>
           <div className={css.hero_right}>

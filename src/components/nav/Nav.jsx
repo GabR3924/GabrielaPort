@@ -25,19 +25,19 @@ export default function Navbar() {
         </div>
         <div className={css.nav_item}>
           <div className={css.nav_link}>
-            home
+            <a href="#home">home</a>
           </div>
           <div className={css.nav_link}>
-            Skills
+            <a href="#skills">Skills</a>
           </div>
           <div className={css.nav_link}>
-            Projects
+            <a href="#projects">Projects</a>
           </div>
           <div className={css.nav_link}>
-            Education
+            Experiencia
           </div>
           <div className={css.nav_link}>
-            <Link to='/#footer'>footer</Link>
+            <a href="#footer">Footer</a>
           </div>
         </div>
         <div className={css.btn_container}>
@@ -47,12 +47,12 @@ export default function Navbar() {
       {
         open && (
           <div className={css.mobile_menu.open}>
-            <div className={css.mobile_menu_links}>hola</div>
-            <div className={css.mobile_menu_links}>hola</div>
-            <div className={css.mobile_menu_links}>hola</div>
-            <div className={css.mobile_menu_links}>hola</div>
-            <div className={css.mobile_menu_links}>hola</div>
-            <div className={css.github_btn_mobile}>Github profille</div>
+            <div className={css.mobile_menu_links}><a href="#home">home</a></div>
+            <div className={css.mobile_menu_links}> <a href="#skills">Skills</a></div>
+            <div className={css.mobile_menu_links}> <a href="#projects">Projects</a></div>
+            <div className={css.mobile_menu_links}>Experiencia</div>
+            <div className={css.mobile_menu_links}>  <a href="#footer">Footer</a></div>
+            <div className={css.github_btn_mobile}> <a href={Bio.github} target="display"><div>Github profille</div></a></div>
           </div>
         )
       }

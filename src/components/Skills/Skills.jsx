@@ -3,7 +3,7 @@ import { skills } from '../../Data/constants'
 
 export default function Skills() {
   return (
-    <div className={css.container}>
+    <div className={css.container} id="skills">
       <div className={css.wrapper}>
         <h1 className={css.title}>Skills</h1>
         <p className={css.desc}>Here are some of my skills on which I have been working on for the past year.</p>
