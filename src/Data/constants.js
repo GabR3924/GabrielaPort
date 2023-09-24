@@ -11,7 +11,7 @@ export const Bio = {
       "Soy una persona motivada y versátil, siempre dispuesta a aceptar nuevos desafíos. Con pasión por aprender, estoy comprometida en entregar resultados de alta calidad. Con una actitud positiva y una mentalidad de crecimiento, estoy lista para hacer una contribución significativa y lograr grandes cosas.",
     github: "https://github.com/GabR3924",
     resume:
-      "https://drive.google.com/file/d/16F8dwKblE7M4s9cjwWkhw5BM-JDINdIf/view",
+      "https://drive.google.com/file/d/1rMrFiI68MnnQOz65x8z5Fevk86oxMMtu/view?usp=drive_link",
     linkedin: "https://www.linkedin.com/in/gabriela-rodriguez-24b4b0214/",
     twitter: "",
     insta: "",
@@ -256,7 +256,7 @@ export const Bio = {
       description:
         "El sitio web está dedicado a la reproducción de música y ofrece una amplia gama de funciones, incluyendo la creación de perfiles de usuario, la personalización de listas de reproducción, membresías con beneficios exclusivos y un completo panel de administración.",
       image:
-        "../src/assets/music.png",
+        "https://portafoliouno.s3.us-east-2.amazonaws.com/github/music.png",
       tags: [
         "Docker",
         "AWS",      
@@ -278,7 +278,7 @@ export const Bio = {
       description:
         "Nuestro sitio web enfocado en recopilar reseñas y puntuaciones de peliculas, y series que ofrece una amplia gama de funciones, incluyendo la creación de perfiles de usuario, la personalización de listas de reproducción, donacioness con beneficios y un completo panel de administración.",
       image:
-                "../src/assets/screen.png"
+                "https://portafoliouno.s3.us-east-2.amazonaws.com/github/screen.png"
         ,
       tags: ["React Js", "PostgreSQL", "Node Js", "Express Js", "Redux", "Cloudinary","NodeMailer",
     ],
@@ -294,7 +294,7 @@ export const Bio = {
       description:
         "Pokedex, puedes encontrar este proyecto en mi github",
       image:
-      "../src/assets/poke.webp",
+      "https://portafoliouno.s3.us-east-2.amazonaws.com/github/poke.webp",
       tags: [
         "React Js",
         "PostgreSQL",
