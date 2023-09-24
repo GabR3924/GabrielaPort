@@ -45,6 +45,8 @@
     background: rgb(26, 26, 26);
     padding: 1rem;
     justify-content: space-evenly;
+    overflow: scroll;
+
   }
 
   .closeButton{
@@ -125,7 +127,7 @@
 
   @media screen and (max-width: 768px) {
     .container{
-      
+      overflow: scroll;
       height: 70%;
     }
     img {
