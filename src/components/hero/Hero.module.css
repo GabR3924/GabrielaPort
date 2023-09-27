@@ -48,16 +48,21 @@
   gap: 12px;
   background: url('../../assets/hero-image.png');
   background-size: cover;
-  background-repeat:no-repeat ;
+  background-repeat: no-repeat;
+
   
 }
 
 
 .title{
-  font-weight: 700;
+  font-weight: 800;
   font-size: 50px;
-  color: var(--primary);
+  background: linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
+    background: -moz-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
+    background: -webkit-linear-gradient(225deg, rgb(115, 0, 255) 0%, hsla(294, 100%, 50%, 1) 100%);
   line-height: 68px;
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 .text_loop{
@@ -137,8 +142,8 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 80px;
-    width: 35%;
-  height: 8rem;
+    width: 50%;
+  height: 13rem;
   background: url('../../assets/hero-image.png');
   background-size: cover;
   background-repeat:no-repeat ;

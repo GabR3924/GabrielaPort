@@ -49,11 +49,11 @@ const Projects = () => {
           <div className={css.divider} />
           {toggle === 'android app' ? (
             <div className={`${css.toggleButton} ${css.active}`} onClick={() => setToggle('android app')}>
-              ANDROID APP'S
+             API'S
             </div>
           ) : (
             <div className={css.toggleButton} onClick={() => setToggle('android app')}>
-              ANDROID APP'S
+             API'S
             </div>
           )}
           <div className={css.divider} />

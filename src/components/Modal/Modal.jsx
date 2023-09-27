@@ -30,7 +30,7 @@ const Modal = ({ isOpen, onClose, project }) => {
               rel="noopener noreferrer"
               className={styles.buttonDull}
             >
-              View Code
+              Github
             </a>
             <a
               href={project?.webapp}
@@ -38,7 +38,7 @@ const Modal = ({ isOpen, onClose, project }) => {
               rel="noopener noreferrer"
               className={styles.button}
             >
-              View Live App
+              Site
             </a>
             <button className={styles.closeButton} onClick={handleClose}>
               &times;

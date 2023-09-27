@@ -15,7 +15,7 @@ export default function Navbar() {
           <div className={css.icon}>
             
           </div>
-          <span>Portafolio</span>
+          <span>Portfolio</span>
         </div>
         <div className={css.mobile_icon}>
           <AiOutlineMenu
@@ -34,9 +34,6 @@ export default function Navbar() {
             <a href="#projects">Projects</a>
           </div>
           <div className={css.nav_link}>
-            Experiencia
-          </div>
-          <div className={css.nav_link}>
             <a href="#footer">Footer</a>
           </div>
         </div>
@@ -50,7 +47,7 @@ export default function Navbar() {
             <div className={css.mobile_menu_links}><a href="#home">home</a></div>
             <div className={css.mobile_menu_links}> <a href="#skills">Skills</a></div>
             <div className={css.mobile_menu_links}> <a href="#projects">Projects</a></div>
-            <div className={css.mobile_menu_links}>Experiencia</div>
+  
             <div className={css.mobile_menu_links}>  <a href="#footer">Footer</a></div>
             <div className={css.github_btn_mobile}> <a href={Bio.github} target="display"><div>Github profille</div></a></div>
           </div>
